@@ -1,6 +1,6 @@
 # Cratesearch.nvim
 Cratesearch.nvim is a plugin for Rustaceans to search [crates.io](https://crates.io/) directly from their Neovim.<br>
-![image goes here](https://picsum.photos/200/300)<br>
+![Cratesearch Example](https://raw.githubusercontent.com/Aityz/readme-assets/main/ss.png)<br>
 ## 🔥 Features
 - Easily configurable, just pass the table of options to the setup function.
 - Easy to use, call ``:CrateSearch [query]`` and you can search.
