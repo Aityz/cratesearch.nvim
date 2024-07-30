@@ -18,9 +18,9 @@ T.setup = function(opts)
 					lines[i] = "["
 						.. pos
 						.. "] "
-						.. data.name
+						.. data.name:gsub("[\n\r]", " ")
 						.. ": "
-						.. data.description
+						.. data.description:gsub("[\n\r]", " ")
 						.. " Downloads: "
 						.. data.downloads
 
